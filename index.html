@@ -270,11 +270,16 @@
     modalClose.addEventListener("click", hideBuyTickets);
 
     //Close modal when clicking outside of modal
-    modal.addEventListener("click", hideBuyTickets);
+    // modal.addEventListener("click", hideBuyTickets);
 
-    modalContainer.addEventListener("click", function () {
-      event.stopPropagation();
-    });
+    // modalContainer.addEventListener("click", function () {
+    //   event.stopPropagation();
+    // });
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.classList.remove("open");
+      }
+    }
     // SECTION Event open/close Menu
     var header = document.getElementById("header");
     var mobileMenu = document.getElementById("mobile-menu");
