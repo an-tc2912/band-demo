@@ -13,7 +13,7 @@
 
         #slider .text-description {
             margin-top: 0;
-            font-size: 12px;
+            font-size: 1.2rem;
         }
 
         #slider .text-heading {
@@ -21,29 +21,25 @@
         }
 
         .btn {
-            padding: 15px 16px;
-        }
-
-        html {
-            text-size-adjust: none;
+            padding: 1.5rem 1.6rem;
         }
 
         #nav .subnav a {
-            padding: 12px 38px;
+            padding: 1.2rem 3.8rem;
         }
 
         .contact-form .form-control {
-            padding: 15px;
-            font-size: 16px;
+            padding: 1.5rem;
+            font-size: 1.6rem;
         }
 
         #footer .social-lists>a {
-            margin: 0 8px;
+            margin: 0 .8rem;
         }
 
         #footer .social-lists .copyright a {
             display: inline-block;
-            padding: 12px 0;
+            padding: 1.2rem 0;
         }
 
         .content-section .contact-info {
@@ -51,7 +47,7 @@
         }
 
         .contact-form {
-            margin-top: 32px;
+            margin-top: 3.2rem;
             line-height: 2.0;
         }
     }
@@ -59,7 +55,7 @@
     /* Mobile */
     @media (max-width: 46.1875em) {
         .s-mt-8 {
-            margin-top: 8px;
+            margin-top: .8rem;
         }
 
         .s-full-width,
@@ -83,7 +79,7 @@
 
         #nav .subnav a {
             color: #fff;
-            padding: 12px 38px;
+            padding: 1.2rem 3.8rem;
         }
 
         #nav li {

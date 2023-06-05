@@ -1,5 +1,5 @@
 :root {
-  --fs-s: 1rem;
+  --fs-s: 1.5rem;
 }
 
 /* Reset CSS */
@@ -13,7 +13,11 @@ html {
   line-height: 1.5;
   font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
-  font-size: 15px;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
 }
 
 .pull-right {
@@ -21,19 +25,19 @@ html {
 }
 
 .mt-8 {
-  margin-top: 8px !important;
+  margin-top: 0.8rem !important;
 }
 
 .mt-16 {
-  margin-top: 16px !important;
+  margin-top: 1.6rem !important;
 }
 
 .mt-32 {
-  margin-top: 32px !important;
+  margin-top: 3.2rem !important;
 }
 
 .mb-16 {
-  margin-bottom: 16px !important;
+  margin-bottom: 1.6rem !important;
 }
 
 .btn {
@@ -41,13 +45,13 @@ html {
   font-size: var(--fs-s);
   color: #fff;
   background-color: #000;
-  padding: 12px 16px;
-  margin-top: 15px;
+  padding: 1.2rem 1.6rem;
+  margin-top: 1.5rem;
   border: none;
   text-decoration: none;
   cursor: pointer;
-  appearance: none;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .btn:hover {
@@ -57,8 +61,8 @@ html {
 
 /* Common */
 .row {
-  margin-left: -8px;
-  margin-right: -8px;
+  margin-left: -0.8rem;
+  margin-right: -0.8rem;
 
 }
 
@@ -70,8 +74,8 @@ html {
 
 .col {
   float: left;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
 }
 
 .col-half {
@@ -94,7 +98,7 @@ html {
 
 #header {
   position: fixed;
-  height: 48px;
+  height: 4.8rem;
   top: 0;
   left: 0;
   right: 0;
@@ -119,7 +123,7 @@ html {
 
 #nav li a {
   text-decoration: none;
-  padding: 12px 24px;
+  padding: 1.2rem 2.4rem;
   display: block;
 }
 
@@ -138,14 +142,14 @@ html {
   position: absolute;
   top: 100%;
   left: 0;
-  min-width: 160px;
+  min-width: 16rem;
   background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 .4rem 1rem rgba(0, 0, 0, 0.3);
 }
 
 #nav .subnav a {
   color: #000;
-  padding: 8px 16px;
+  padding: 0.8rem 1.6rem;
 }
 
 #nav .subnav>li {
@@ -177,12 +181,12 @@ html {
 #header .search-btn,
 #header .mobile-menu-btn {
   float: right;
-  padding: 12px 24px;
+  padding: 1.2rem 2.4rem;
   cursor: pointer;
 }
 
 #slider {
-  margin-top: 48px;
+  margin-top: 4.8rem;
   padding-top: 50%;
   background: url("../img/slider/chicago.jpg") top center / cover no-repeat;
   position: relative;
@@ -194,66 +198,66 @@ html {
   bottom: 5%;
   width: 100%;
   text-align: center;
-  text-shadow: 0 0 1px #000;
+  text-shadow: 0 0 .1rem #000;
 
 }
 
 #slider .text-heading {
   font-weight: 500;
-  font-size: 24px;
-  margin-bottom: 15px;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
 }
 
 #slider .text-description {
   font-size: var(--fs-s);
   font-weight: 700;
-  margin-top: 15px;
+  margin-top: 1.5rem;
 }
 
 #content .content-section {
-  width: 800px;
+  width: 80rem;
   max-width: 100%;
   margin: 0 auto;
-  padding: 64px 16px 80px;
+  padding: 6.4rem 1.6rem 8rem;
 }
 
 #content .section-heading {
   text-align: center;
   font-weight: 400;
-  font-size: 30px;
-  letter-spacing: 4px;
-  margin-top: 10px;
+  font-size: 3rem;
+  letter-spacing: .4rem;
+  margin-top: 1rem;
 }
 
 #content .section-sub-heading {
   text-align: center;
   font-size: var(--fs-s);
-  margin-top: 15px;
+  margin-top: 1.5rem;
   font-style: italic;
   opacity: 0.6;
 }
 
 #content .about-text {
-  margin-top: 15px;
+  margin-top: 1.5rem;
   font-size: var(--fs-s);
   text-align: justify;
 }
 
 #content .member-list {
-  margin-top: 14px;
-  padding-top: 30px;
-  margin-bottom: 24px;
+  margin-top: 1.4rem;
+  padding-top: 3rem;
+  margin-bottom: 2.4rem;
 }
 
 #content .member-name {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 400;
 }
 
 #content .member-img {
-  margin-top: 8px;
+  margin-top: 0.8rem;
   width: 90%;
-  border-radius: 4px;
+  border-radius: .4rem;
 }
 
 #band .member-item {
@@ -271,38 +275,38 @@ html {
 
 .ticket-list {
   background-color: #fff;
-  margin-top: 34px;
+  margin-top: 3.4rem;
   list-style: none;
 }
 
 .ticket-list li {
   font-size: var(--fs-s);
-  padding: 8px 16px;
+  padding: 0.8rem 1.6rem;
   color: #757575;
-  border-bottom: 1px solid #ddd;
+  border-bottom: .1rem solid #ddd;
 }
 
 .ticket-list .sold-out {
-  background-color: #f44336;
+  background-color: #b30c00;
   color: #fff;
-  padding: 3px 4px;
-  margin-left: 16px;
+  padding: .4rem 0.8rem;
+  margin-left: 1.6rem;
 }
 
 .ticket-list .quantity {
   float: right;
-  padding: 0 8px;
+  padding: 0 0.8rem;
   background-color: #000;
   color: #fff;
   border-radius: 50%;
   text-align: center;
-  margin-right: 16px;
+  margin-right: 1.6rem;
 }
 
 /* Place */
 .place-list {
-  margin-top: 16px;
-  margin-bottom: 32px;
+  margin-top: 1.6rem;
+  margin-bottom: 3.2rem;
 }
 
 .place-img {
@@ -317,7 +321,7 @@ html {
 .place-body {
   background-color: #fff;
   font-size: var(--fs-s);
-  padding: 16px;
+  padding: 1.6rem;
 }
 
 .place-heading {
@@ -326,13 +330,14 @@ html {
 }
 
 .place-time {
-  margin-top: 15px;
-  color: #757575;
+  margin-top: 1.5rem;
+  color: #5b5757;
   opacity: 0.6;
+  font-weight: 800;
 }
 
 .place-description {
-  margin-top: 15px;
+  margin-top: 1.5rem;
 }
 
 
@@ -351,8 +356,8 @@ html {
 }
 
 .modal .icon-suitcase {
-  margin-right: 8px;
-  margin-top: 2px;
+  margin-right: 0.8rem;
+  margin-top: .2rem;
 }
 
 .modal-header {
@@ -360,17 +365,17 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 32px 16px;
-  font-size: 30px;
+  padding: 3.2rem 1.6rem;
+  font-size: 3rem;
   color: #fff;
-  letter-spacing: 4px;
+  letter-spacing: .4rem;
 }
 
 .modal-container {
   background-color: #fff;
-  width: 800px;
-  max-width: calc(100% - 32px);
-  min-height: 200px;
+  width: 80rem;
+  max-width: calc(100% - 3.2rem);
+  min-height: 20rem;
   position: relative;
   margin: auto;
   animation: modalFadeIn ease 0.5s;
@@ -381,7 +386,7 @@ html {
   right: 0;
   top: 0;
   color: #fff;
-  padding: 8px 16px;
+  padding: 0.8rem 1.6rem;
   cursor: pointer;
 }
 
@@ -392,19 +397,19 @@ html {
 }
 
 .modal-body {
-  padding: 16px;
+  padding: 1.6rem;
 }
 
 .modal-label {
   display: block;
   font-size: var(--fs-s);
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
 }
 
 .modal-input {
-  margin-bottom: 24px;
-  padding: 9px;
-  border: 1px solid #ccc;
+  margin-bottom: 2.4rem;
+  padding: .9rem;
+  border: .1rem solid #ccc;
   width: 100%;
   font-size: var(--fs-s);
 }
@@ -416,7 +421,7 @@ html {
 #buy-tickets {
   background-color: rgb(0, 150, 136);
   color: #fff;
-  padding: 18px;
+  padding: 1.8rem;
   width: 100%;
   border: none;
   text-transform: uppercase;
@@ -425,7 +430,7 @@ html {
 
 p.modal-help {
   text-align: right;
-  padding: 16px;
+  padding: 1.6rem;
 }
 
 .modal-footer a {
@@ -434,7 +439,7 @@ p.modal-help {
 
 /* Contact section */
 .content-section .contact-content {
-  margin-top: 48px;
+  margin-top: 4.8rem;
 }
 
 .contact-content a:hover {
@@ -442,11 +447,11 @@ p.modal-help {
 }
 
 .content-section .contact-info {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .contact-info i[class*="fa-"] {
-  width: 30px;
+  width: 3rem;
 }
 
 .contact-form {
@@ -454,8 +459,8 @@ p.modal-help {
 }
 
 .contact-form .form-control {
-  padding: 12px;
-  border: 1px solid #ccc;
+  padding: 1.2rem;
+  border: .1rem solid #ccc;
   width: 100%;
 }
 
@@ -466,14 +471,14 @@ p.modal-help {
 
 /* Footer section */
 #footer {
-  padding: 64px 16px;
+  padding: 6.4rem 1.6rem;
   text-align: center;
   background-color: #f1f1f1;
   color: #000;
 }
 
 #footer .social-lists {
-  font-size: 24px;
+  font-size: 2.4rem;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -488,7 +493,7 @@ p.modal-help {
 
 #footer .copyright {
   color: rgba(0, 0, 0, 0.6);
-  margin: 15px 0;
+  margin: 1.5rem 0;
   font-size: var(--fs-s);
 }
 
@@ -501,7 +506,7 @@ p.modal-help {
 @keyframes modalFadeIn {
   from {
     opacity: 0;
-    transform: translateY(-140px);
+    transform: translateY(-14rem);
   }
 
   to {
