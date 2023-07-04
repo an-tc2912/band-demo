@@ -14,7 +14,7 @@ This is a cloned The Band Template of [W3Schools](https://www.w3schools.com/w3cs
 
 <div  align="center">
 
-<img  src="https://github.com/an-tc2912/band-demo/blob/main/assets/demo-image/demo1.png"  alt="Demo 1"  width="50%"></img> &nbsp;&nbsp;
+<img  src="https://github.com/an-tc2912/band-demo/blob/main/assets/demo-image/demo1.png"  alt="Demo 1"  width="600px"></img> &nbsp;&nbsp;
 </div>
 
 ## 📎 Links
